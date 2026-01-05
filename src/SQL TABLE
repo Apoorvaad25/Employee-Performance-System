@@ -1,0 +1,10 @@
+CREATE TABLE performance (
+    performance_id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    work_quality INT,
+    punctuality INT,
+    communication INT,
+    productivity INT,
+    overall_score DOUBLE,
+    remarks VARCHAR(100)
+);
